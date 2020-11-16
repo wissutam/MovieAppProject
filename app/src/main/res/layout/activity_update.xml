@@ -5,27 +5,32 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".AddActivity"
+    android:background="@drawable/background"
     android:padding="30dp">
 
     <EditText
         android:id="@+id/movie_input2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="150dp"
-        android:ems="10"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="72dp"
+        android:background="#D3D2D2"
         android:hint="Movie"
-        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/type_input2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
+        android:background="#D3D2D2"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Movie Genres"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,21 +38,25 @@
 
     <EditText
         android:id="@+id/runtime_input2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="262dp"
+        android:layout_height="52dp"
+        android:background="#D3D2D2"
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="Running time"
+        android:textColorHint="#000000"
+        android:textSize="18sp"
         android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/type_input2" />
+        app:layout_constraintTop_toBottomOf="@+id/type_input2"  />
 
     <Button
         android:id="@+id/update_button"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
         android:layout_marginTop="40dp"
+        android:background="@drawable/bg_button_pressed"
         android:text="Update"
         android:textSize="20sp"
         android:textAllCaps="false"
@@ -57,12 +66,12 @@
 
     <Button
         android:id="@+id/delete_button"
-        android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="150dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/bg_button_pressed"
         android:text="Delete"
         android:textAllCaps="false"
-        android:textColor="@color/red"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
